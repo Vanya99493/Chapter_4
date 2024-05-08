@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a1a46b68db14c23a5f170c859d0455e, type: 3}
+  m_Name: BookListSO
+  m_EditorClassIdentifier: 
+  ApplicationType: 2
+  Applications:
+  - {fileID: 11400000, guid: 9533452632d821840a3a3ba4cf1d931a, type: 2}
+  - {fileID: 11400000, guid: 1fa7aa624ffe69b48a2b8463a495ab0f, type: 2}
+  - {fileID: 11400000, guid: 6745074152478964aa9e83cf620da933, type: 2}
+  - {fileID: 11400000, guid: 0e395f6139629d64d9482ffcd24c7ea0, type: 2}
+  - {fileID: 11400000, guid: 2ab035fb8b20c2a43ac0f4d49309460f, type: 2}
+  - {fileID: 11400000, guid: 02f5e0587f69cdb49ade8a075c5445ca, type: 2}
+  - {fileID: 11400000, guid: 2b667461d5724d2439786ddb3a9b2313, type: 2}
+  - {fileID: 11400000, guid: 9eacad200961d864da5dadbdaf5f217d, type: 2}
+  - {fileID: 11400000, guid: 48a56336aee126f409f588e1023b0938, type: 2}
+  - {fileID: 11400000, guid: e290136a6f7f3cc4f9a97fcdf1009b24, type: 2}

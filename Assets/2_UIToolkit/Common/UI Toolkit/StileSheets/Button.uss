@@ -1,0 +1,19 @@
+.button {
+    color: rgba(202, 202, 202, 255);
+    -unity-text-outline-color: rgba(255, 255, 255, 0);
+    font-size: 56px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(87, 87, 87);
+    border-left-color: rgb(87, 87, 87);
+    border-right-color: rgb(87, 87, 87);
+    border-top-color: rgb(87, 87, 87);
+    border-bottom-color: rgb(87, 87, 87);
+    -unity-font: initial;
+}
