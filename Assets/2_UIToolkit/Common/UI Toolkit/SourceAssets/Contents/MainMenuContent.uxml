@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/2_UIToolkit/Common/UI%20Toolkit/StileSheets/Button.uss?fileID=7433441132597879392&amp;guid=7f15ee74c3df8554dabf77be55db4401&amp;type=3#Button" />
+    <ui:VisualElement name="Wrapper_ve">
+        <ui:Button text="Start&#x9;" display-tooltip-when-elided="true" name="StartGame_button" class="button" />
+        <ui:Button text="Settings" display-tooltip-when-elided="true" name="Settings_button" class="button" />
+        <ui:Button text="Exit" display-tooltip-when-elided="true" name="Exit_button" class="button" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/2_UIToolkit/Common/UI%20Toolkit/StileSheets/Button.uss?fileID=7433441132597879392&amp;guid=7f15ee74c3df8554dabf77be55db4401&amp;type=3#Button" />
+    <ui:VisualElement name="Content_ve" style="width: 100%; height: 100%;">
+        <ui:Button text="General" display-tooltip-when-elided="true" name="General_button" class="button" />
+        <ui:Button text="Video" display-tooltip-when-elided="true" name="Video_button" class="button" />
+        <ui:Button text="Audio" display-tooltip-when-elided="true" name="Audio_button" class="button" />
+        <ui:Button text="Credits" display-tooltip-when-elided="true" name="Credits_button" class="button" />
+        <ui:Button text="Back" display-tooltip-when-elided="true" name="Back_button" class="button" />
+    </ui:VisualElement>
+</ui:UXML>

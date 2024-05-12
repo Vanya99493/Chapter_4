@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/2_UIToolkit/Common/UI%20Toolkit/StileSheets/ContentText.uss?fileID=7433441132597879392&amp;guid=5dca7bf7d6f72474a97b1121b88cabc2&amp;type=3#ContentText" />
+    <ui:VisualElement name="Wrapper_ve" style="width: 100%; height: 100%;">
+        <ui:VisualElement name="Content_ve" style="width: 100%; height: 100%; background-color: rgba(63, 63, 63, 255);">
+            <ui:Label text="General" display-tooltip-when-elided="true" name="Text_text" class="contentText" style="justify-content: center; font-size: 80px; -unity-font-style: bold; -unity-text-align: upper-center;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

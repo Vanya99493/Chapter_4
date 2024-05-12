@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 340802531}
   - component: {fileID: 340802530}
+  - component: {fileID: 340802532}
   m_Layer: 5
   m_Name: UIDocument
   m_TagString: Untagged
@@ -171,6 +172,35 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &340802532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 340802529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2280ccae8c23b1d4599e0d4e4b560327, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _uiDocument: {fileID: 340802530}
+  _menuPanel:
+    MenuPanelAsset: {fileID: 9197481963319205126, guid: 73f110d2187a0b244adc369ccfdb0edb, type: 3}
+    _mainMenuContent:
+      MainMenuContentAsset: {fileID: 9197481963319205126, guid: 605cf917f22c16545b78b2140b82f645, type: 3}
+    _settingsContent:
+      SettingsContentAsset: {fileID: 9197481963319205126, guid: 8d364b9303be52d48aa9cc7403c6881a, type: 3}
+      _generalSettingsContent:
+        GeneralSettingsContentAsset: {fileID: 9197481963319205126, guid: 305f097b5e012a6498f918eebe971d7f, type: 3}
+      _videoSettingsContent:
+        VideoSettingsContentAsset: {fileID: 9197481963319205126, guid: 44756dd9793d3ed4fabdeebde7075970, type: 3}
+      _audioSettingsContent:
+        AudioSettingsContentAsset: {fileID: 9197481963319205126, guid: 0e4d5b79bf7b5764f8a31ba256de45f9, type: 3}
+      _creditsSettingsContent:
+        CreditsSettingsContentAsset: {fileID: 9197481963319205126, guid: fb379cb2c24393d4abd3161ee83d32cc, type: 3}
+  _gameHud:
+    GameHudAsset: {fileID: 9197481963319205126, guid: d804309262c442b48a2c83beccf1e5f1, type: 3}
 --- !u!1 &609053244
 GameObject:
   m_ObjectHideFlags: 0
