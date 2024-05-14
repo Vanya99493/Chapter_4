@@ -15,6 +15,9 @@ namespace _7_PlayMarketSample.Scripts.UIModule.Panels.AppPagePanelModule
         [SerializeField] private TextMeshProUGUI _description;
         [SerializeField] private Transform _screenshotsParentTransform;
 
+        [Header("Screenshot prefab")] 
+        [SerializeField] private Image _screenshotPrefab; 
+
         private void Start()
         {
             _returnButton.onClick.AddListener(() => gameObject.SetActive(false));
@@ -42,10 +45,8 @@ namespace _7_PlayMarketSample.Scripts.UIModule.Panels.AppPagePanelModule
 
             for (int i = 0; i < appSO.AppInfo.Screenshots.Length; i++)
             {
-                var screenshot = new GameObject("NewImage");
-                screenshot.transform.SetParent(_screenshotsParentTransform);
-                var image = screenshot.AddComponent<Image>();
-                image.sprite = appSO.AppInfo.Screenshots[i];
+                Image screenshot = Instantiate(_screenshotPrefab, _screenshotsParentTransform);
+                screenshot.sprite = appSO.AppInfo.Screenshots[i];
             }
         }
     }

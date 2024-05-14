@@ -14,6 +14,8 @@ namespace _7_PlayMarketSample.Scripts.UIModule.VisualElements
         [SerializeField] private float _movementDuration;
         [SerializeField] private int _movemetUpdatePS;
         [SerializeField] private bool _useComponentYPosition = false;
+        [Header("Debug")]
+        [SerializeField] private bool _isDebugging;
 
         private int _currentPositionIndex;
         private bool _isMoving;
@@ -44,6 +46,10 @@ namespace _7_PlayMarketSample.Scripts.UIModule.VisualElements
             float delay = 1f / _checkPS; 
             while (true)
             {
+                if (_isDebugging)
+                {
+                    Debug.Log(_isMoving);
+                }
                 if (!_isMoving && Vector3.Distance(transform.position, _positionsTransform[_currentPositionIndex].position) > 1)
                 {
                     InstantChangeCurrentPosition();
